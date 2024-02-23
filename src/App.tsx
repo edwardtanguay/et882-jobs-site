@@ -21,7 +21,7 @@ function App() {
 			<p className="mb-3">There are {jobs.length} jobs.</p>
 			{jobs.map((job) => {
 				return (
-					<div>
+					<div key={job.id}>
 						<p>{job.title}</p>
 					</div>
 				);
