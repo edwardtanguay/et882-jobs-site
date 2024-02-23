@@ -1,10 +1,11 @@
 import axios from "axios";
 import { useEffect, useState } from "react";
+import { IJob } from "./interfaces";
 
 const url = "https://edwardtanguay.vercel.app/share/jobs.json";
 
 function App() {
-	const [jobs, setJobs] = useState([]);
+	const [jobs, setJobs] = useState<IJob[]>([]);
 
 	useEffect(() => {
 		(async () => {

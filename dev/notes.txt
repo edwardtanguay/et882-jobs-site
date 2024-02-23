@@ -19,8 +19,9 @@
 	- x Sass
 	- x Tailwind
 	- .. App page:
-		- .. fetch jobs
+		- x fetch jobs
+		- x display jobs
 		- fetch skills
-		- display jobs
 		- display skills
+		- create component
 	- publish at Vercel
