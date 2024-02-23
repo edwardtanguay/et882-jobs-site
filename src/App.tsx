@@ -27,7 +27,7 @@ function App() {
 		<>
 			<h1 className="text-3xl mb-4 text-yellow-300">Job Site</h1>
 
-			<h2 className="text-2xl">Job of the Day</h2>
+			<h2 className="text-2xl mb-3">Job of the Day</h2>
 			<div className="mb-4">
 				<Job
 					job={jobs.find((m) => m.id === jobOfTheDayId)}
