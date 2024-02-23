@@ -21,7 +21,8 @@
 	- .. App page:
 		- x fetch jobs
 		- x display jobs
-		- .. make job component
+		- .. sort jobs newest first
+		- komake job component
 		- fetch skills
 		- display skills
 		- create component

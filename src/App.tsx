@@ -10,7 +10,8 @@ function App() {
 	useEffect(() => {
 		(async () => {
 			const response = await axios.get(url);
-			const _jobs = response.data;
+			const _jobs:IJob[] = response.data;
+			_jobs.sort((a, b) => a.publicationDate > b.publicationDate ? -1 : 1);
 			setJobs(_jobs);
 		})();
 	}, []);
