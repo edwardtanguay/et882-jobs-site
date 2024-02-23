@@ -17,8 +17,14 @@ function App() {
 	return (
 		<>
 			<h1 className="text-3xl mb-4 text-yellow-300">Job Site</h1>
-			<p>There are {jobs.length} jobs.</p>
-			{}
+			<p className="mb-3">There are {jobs.length} jobs.</p>
+			{jobs.map((job) => {
+				return (
+					<div>
+						<p>{job.title}</p>
+					</div>
+				);
+			})}
 		</>
 	);
 }
