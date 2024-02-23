@@ -17,7 +17,7 @@
 	- x minimize
 	- x install git and push
 	- x Sass
-	- .. Tailwind
+	- x Tailwind
 	- App page:
 		- fetch jobs
 		- fetch skills
