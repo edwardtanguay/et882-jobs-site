@@ -15,8 +15,9 @@
 - .. project
 	- x create Vite React site
 	- x minimize
-	- .. install git and push
-	- Sass/Tailwind
+	- x install git and push
+	- x Sass
+	- .. Tailwind
 	- App page:
 		- fetch jobs
 		- fetch skills
