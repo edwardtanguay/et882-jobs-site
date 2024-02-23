@@ -5,4 +5,5 @@ export interface IJob {
 	url: string;
 	skillList: string;
 	publicationDate: string;
+	isOpen: boolean;
 }

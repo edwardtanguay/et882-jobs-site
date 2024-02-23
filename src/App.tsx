@@ -13,6 +13,9 @@ function App() {
 			const response = await axios.get(url);
 			const _jobs:IJob[] = response.data;
 			_jobs.sort((a, b) => a.publicationDate > b.publicationDate ? -1 : 1);
+			for (const _job of _jobs) {
+				_job.isOpen = false;
+			}
 			setJobs(_jobs);
 		})();
 	}, []);
