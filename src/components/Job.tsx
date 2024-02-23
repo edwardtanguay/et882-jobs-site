@@ -1,4 +1,5 @@
 import { IJob } from "../interfaces";
+import { FaArrowAltCircleDown } from "react-icons/fa";
 
 interface IProps {
 	job: IJob;
@@ -7,7 +8,8 @@ interface IProps {
 export const Job = ({ job }: IProps) => {
 	return (
 		<div className="bg-gray-900 p-3 mb-3" key={job.id}>
-			<p>
+			<p className="flex gap-2 items-center">
+				<FaArrowAltCircleDown className="text-xl" />
 				<a
 					href={job.url}
 					className="text-xl underline text-yellow-200"
