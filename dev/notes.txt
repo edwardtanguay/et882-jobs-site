@@ -21,6 +21,7 @@
 	- .. App page:
 		- x fetch jobs
 		- x display jobs
+		- .. make job component
 		- fetch skills
 		- display skills
 		- create component

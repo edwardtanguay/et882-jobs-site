@@ -21,8 +21,10 @@ function App() {
 			<p className="mb-3">There are {jobs.length} jobs.</p>
 			{jobs.map((job) => {
 				return (
-					<div key={job.id}>
-						<p>{job.title}</p>
+					<div className="bg-gray-900 p-3 mb-3" key={job.id}>
+						<p><a href={job.url} className="text-xl underline text-yellow-200" target="_blank">{job.title}</a></p>
+						<p className="text-orange-400">{job.company}</p>
+						<p>{job.publicationDate}</p>
 					</div>
 				);
 			})}
