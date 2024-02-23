@@ -11,8 +11,10 @@ function App() {
 	useEffect(() => {
 		(async () => {
 			const response = await axios.get(url);
-			const _jobs:IJob[] = response.data;
-			_jobs.sort((a, b) => a.publicationDate > b.publicationDate ? -1 : 1);
+			const _jobs: IJob[] = response.data;
+			_jobs.sort((a, b) =>
+				a.publicationDate > b.publicationDate ? -1 : 1
+			);
 			for (const _job of _jobs) {
 				_job.isOpen = false;
 			}
@@ -25,7 +27,7 @@ function App() {
 			<h1 className="text-3xl mb-4 text-yellow-300">Job Site</h1>
 			<p className="mb-3">There are {jobs.length} jobs.</p>
 			{jobs.map((job) => {
-				return <Job job={job} />
+				return <Job key={job.id} job={job} jobs={jobs} setJobs={setJobs} />;
 			})}
 		</>
 	);
