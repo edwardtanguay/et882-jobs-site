@@ -18,8 +18,8 @@
 	- x install git and push
 	- x Sass
 	- x Tailwind
-	- App page:
-		- fetch jobs
+	- .. App page:
+		- .. fetch jobs
 		- fetch skills
 		- display jobs
 		- display skills
