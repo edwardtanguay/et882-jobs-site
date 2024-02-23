@@ -1,0 +1,25 @@
+- topics
+	- useState (state variables***)
+		- jobs
+		- skills
+	- useEffect (fetch data when page loads)
+		- fetch jobs and skills
+	- event handling (onclick)
+		- fold information
+	- JSX
+		- display jobs and skills
+		- conditional rendering (like if and ternary)
+	- components, props
+		- job
+		- skill
+- .. project
+	- x create Vite React site
+	- x minimize
+	- .. install git and push
+	- Sass/Tailwind
+	- App page:
+		- fetch jobs
+		- fetch skills
+		- display jobs
+		- display skills
+	- publish at Vercel
