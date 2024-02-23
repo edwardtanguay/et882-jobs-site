@@ -30,7 +30,7 @@ export const Job = ({ job, jobs, setJobs }: IProps) => {
 							className="text-xl underline text-yellow-200"
 							target="_blank"
 						>
-							{job.title} ({job.id})
+							{job.title}
 						</a>
 					</p>
 					{job.isOpen && (
