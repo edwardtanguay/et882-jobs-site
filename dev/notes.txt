@@ -21,9 +21,9 @@
 	- .. App page:
 		- x fetch jobs
 		- x display jobs
-		- .. sort jobs newest first
-		- komake job component
+		- x sort jobs newest first
+		- x make job component
+		- .. publish to Vercel
 		- fetch skills
 		- display skills
 		- create component
-	- publish at Vercel
